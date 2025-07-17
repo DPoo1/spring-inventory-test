@@ -14,8 +14,8 @@ import org.springframework.boot.autoconfigure.web.WebProperties;
 @Setter
 @Table(name = "products")
 public class Product {
+
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
     private String name;
